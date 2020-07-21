@@ -1,0 +1,47 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+#title {
+  margin-top: 2%;
+  font-size: 380%;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  max-width: 100%;
+  padding: 1%;
+  justify-content: space-evenly;
+}
+
+.global-data {
+  width: 50%;
+  padding: 1%;
+  border: 1px solid black;
+}
+
+.local-data {
+  width: 50%;
+  padding: 1%;
+  border: 1px solid black;
+}
+
+.global-data ul,
+.local-data ul {
+  margin-left: 5%;
+  font-size: 180%;
+}
+
+.global-data h1,
+.local-data h1 {
+  margin: 5%;
+  text-align: center;
+}
+
+.bottom {
+  flex: none;
+  margin: 5%;
+  text-align: center;
+}
